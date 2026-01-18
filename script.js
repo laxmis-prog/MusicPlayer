@@ -81,5 +81,7 @@ src: "https://cdn.freecodecamp.org/curriculum/js-music-player/still-learning.mp3
 ];
 
 const audio = new Audio();
-let userData = {};
+let userData = {
+ songs: [...allSongs]
+};
 
