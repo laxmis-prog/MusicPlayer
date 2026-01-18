@@ -82,6 +82,8 @@ src: "https://cdn.freecodecamp.org/curriculum/js-music-player/still-learning.mp3
 
 const audio = new Audio();
 let userData = {
- songs: [...allSongs]
+ songs: [...allSongs],
+ currentSong: null,
+songCurrentTime: 0
 };
 
