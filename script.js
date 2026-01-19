@@ -90,4 +90,5 @@ songCurrentTime: 0
 const printGreeting = () => {
   console.log("Hello there!")
 }
+printGreeting();
 
