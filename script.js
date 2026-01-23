@@ -88,3 +88,6 @@ let userData = {
 };
 
 const renderSongs = (array) => {}
+
+const songsHTML = array.map();
+
