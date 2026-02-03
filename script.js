@@ -102,5 +102,5 @@ const renderSongs = (array) => {
 
 
 </li>`;
-  });
+  }).join("");
 };
