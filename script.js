@@ -109,8 +109,6 @@ const renderSongs = (array) => {
   playlistSongs.innerHTML = songsHTML;
 };
 
-renderSongs(userData?.songs);
-
 const sortSongs = () => {
   userData?.songs.sort((a, b) => {
     if (a.title < b.title) {
@@ -122,4 +120,8 @@ const sortSongs = () => {
 
     return 0;
   });
+
+  return userData?.songs;
 };
+
+renderSongs(userData?.songs);
